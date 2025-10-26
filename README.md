@@ -1,6 +1,6 @@
 These scripts enable hibernate in Linux Mint 22.2 and disable suspend (useful if you have a  laptop that only supports modern suspend).
 
-It is abvisable to ensure the following:
+It is advisable to ensure the following:
 
 1. You create a swap **partition** 1.25x the size of your ram before running this script.
 2. Ensure that the swap partition is formatted as swap; do not reuse an existing swap partition as this may have a stale resume state if you have played with hibernation before.
